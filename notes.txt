@@ -1,0 +1,38 @@
+ <h1></h1>
+        <h2><details>
+                <summary></summary>
+                <section class="ingredients">
+                    Ingredients
+                        <ul> 
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li> 
+                            <li></li>                            
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                </section>
+                <section class="instructions">
+                    Instructions                     
+                        <ol> 
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li> 
+                            <li></li>
+                        </ol>
+                </section>
+                <section class="notes">
+                    Notes
+                    <ul>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </section>
+            </details>
