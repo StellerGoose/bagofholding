@@ -1,7 +1,45 @@
+body {
+    background-color: white;
+}
+
+header {
+    background-color: #4c79a5;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header {
+    color: white;
+    background-image: none;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+    grid-gap: 1rem;
+}
 
 .ingredients, .instructions, .notes {
-    background-color: #f8f8f8;
+    background-color: rgb(255, 234, 202);
+    background-image: url(images/old-yellowing-card-tab-stained-600nw-110235423.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-bottom: 20px;
     padding: 15px;
-    border-radius: 8px;
+    /* border: 1px solid magenta; */
+}
+
+h1 {
+    padding: 40px 0px 20px 40px;
+    color: black;
+    background-image: url(images/old-yellowing-card-tab-stained-600nw-110235422.webp);
+    background-repeat: no-repeat;
+    background-position: 0% 10%;
+    background-size: auto;
+    /* border: 1px solid magenta; */
+}
+
+h2 {
+    padding-left: 30px;
 }
