@@ -18,9 +18,11 @@ header {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, auto));
     grid-gap: 1rem;
+    padding-right: 15px;
 }
 
 .ingredients, .instructions, .notes {
+    color: black;
     background-color: rgb(255, 234, 202);
     background-image: url(images/old-yellowing-card-tab-stained-600nw-110235423.jpg);
     background-repeat: no-repeat;
