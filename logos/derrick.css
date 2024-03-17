@@ -26,6 +26,6 @@
 
  #back-circle {
    fill: url(#concrete);
-   stroke: rgb(80, 80, 80);
+   /* stroke: rgb(80, 80, 80); */
    /* filter: url(#displacementFilter) */
  }
