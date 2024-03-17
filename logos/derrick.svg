@@ -10,6 +10,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
    <style type='text/css'>
+      #back-circle {
+        fill: url(#concrete);
+      }
       #lefteyegroup, #righteyegroup {
          transform-box: fill-box;
          transform-origin: center;
@@ -36,13 +39,13 @@
       @keyframes stripe5pulse { 56% { fill: #03629c } 68% { fill: #8fc219 } 80% { fill: #03629c } }
       @keyframes stripe6pulse { 68% { fill: #03629c } 80% { fill: #8fc219 } 92% { fill: #03629c } }
    </style>
-  <defs
-     id="defs1" />
+  <defs id="defs1">
+  </defs>
   <g
      id="logo"
      style="display:inline">
     <ellipse
-       id="shape0"
+       id="back-circle"
        transform="rotate(0.30865205,-8651.4062,8276.9502)"
        rx="74.58976"
        ry="73.465889"

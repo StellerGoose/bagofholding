@@ -1,0 +1,31 @@
+#lefteyegroup, #righteyegroup {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: 2s linear 0s infinite eyespin;
+    animation-play-state: paused;
+ }
+ #lefteyegroup:hover, #righteyegroup:hover { 
+    animation-play-state: running;
+ }
+ @keyframes eyespin {
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
+ }
+ #stripe1 { animation: 8s linear 1s infinite stripe1pulse }
+ #stripe2 { animation: 8s linear 1s infinite stripe2pulse }
+ #stripe3 { animation: 8s linear 1s infinite stripe3pulse }
+ #stripe4 { animation: 8s linear 1s infinite stripe4pulse }
+ #stripe5 { animation: 8s linear 1s infinite stripe5pulse }
+ #stripe6 { animation: 8s linear 1s infinite stripe6pulse }
+ @keyframes stripe1pulse { 8% { fill: #03629c } 20% { fill: #8fc219 } 32% { fill: #03629c } }
+ @keyframes stripe2pulse { 20% { fill: #03629c } 32% { fill: #8fc219 } 44% { fill: #03629c } }
+ @keyframes stripe3pulse { 32% { fill: #03629c } 44% { fill: #8fc219 } 56% { fill: #03629c } }
+ @keyframes stripe4pulse { 44% { fill: #03629c } 56% { fill: #8fc219 } 68% { fill: #03629c } }
+ @keyframes stripe5pulse { 56% { fill: #03629c } 68% { fill: #8fc219 } 80% { fill: #03629c } }
+ @keyframes stripe6pulse { 68% { fill: #03629c } 80% { fill: #8fc219 } 92% { fill: #03629c } }
+
+ #back-circle {
+   fill: url(#concrete);
+   stroke: rgb(80, 80, 80);
+   /* filter: url(#displacementFilter) */
+ }
