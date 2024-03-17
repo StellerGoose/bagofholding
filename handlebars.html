@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handlebars Templating</title>
+    <script type='module'>
+        import handlebars from './handlebars.js';
+        const recipeData = await (await fetch("recipes.json")).json();
+        const template = handlebars.compile(document.getElementById('recipe').innerHTML);
+        const output = document.getElementById('recipeList');
+        for(var i = 0; i < recipeData.recipes.length; ++i) {
+            const r = document.createElement('div');
+            r.innerHTML = template(recipeData.recipes[i]);
+            output.appendChild(r);
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Recipe List</h1>
+    <div id='recipeList'></div>
+
+    <template id='recipe'>
+        <details id='recipe-{{name}}'>
+            <summary>{{title}}</summary>
+            <div class="wrapper">
+                <div class="text">
+                    <section class="ingredients">
+                        Ingredients
+                        <ul>
+                            {{#ingredients}}
+                            <li>{{.}}</li>
+                            {{/ingredients}}
+                        </ul>
+                    </section>
+                    <section class="instructions">
+                        Instructions
+                        <ol>
+                            {{#instructions}}
+                            <li>{{.}}</li>
+                            {{/instructions}}
+                        </ol>
+                    </section>
+                    <section class="notes">
+                        Notes
+                        <ul>
+                            {{#notes}}
+                            <li>{{.}}</li>
+                            {{/notes}}
+                        </ul>
+                    </section>
+                </div>
+                <div class=image>
+                    <img src="{{image}}" alt="{{alt}}">
+                </div>
+            </div>
+        </details>
+    </template>
+</body>
+</html>

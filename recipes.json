@@ -1,0 +1,54 @@
+{
+  "categories": [
+    {"name": "comfort", "title": "Comfort Food"},
+    {"name": "quick", "title": "Quick Meals"},
+    {"name": "tasty", "title": "Tasty Treats"},
+    {"name": "techniques", "title": "Techniques"}
+  ],
+  "recipes": [
+    {"name": "congee", "title": "Quick Congee", 
+      "image": "https://bag.ofholding.ca/images/x1o7xi6z4av71.webp",
+      "alt": "a bowl of pork congee",
+      "categories": ["comfort"],
+      "ingredients": [
+        "3 cups jasmine rice, leftovers work well",
+        "4 cups pork or chicken stock, unsalted is best",
+        "1 tbs soy sauce",
+        "2 tsp fish sauce",
+        "ground white pepper, to taste",
+        "2 cloves garlic",
+        "1 green onion, chopped",
+        "1 tbs grated ginger, or more to taste",
+        "1/2 tsp seasame oil",
+        "ground pork or chicken meatballs, optional"
+      ],
+      "instructions": [
+        "If the rice is chilled, microwave it for a minute so it's hot, which will help it absorb liquid more readily.",
+        "Add rice to blender along with just enough of the stock to blend. Blend the rice briefly (several seconds) until you have your desired consistency—this could be coarser or finer depending on your preference, but make sure not to over-blend, you don't want a smooth puree.",
+        "Pour blended rice into a heavy-bottomed pot, then use the remaining stock to rinse out the blender so you get everything out and add to the pot.",
+        "Add soy sauce, fish sauce, white pepper, and garlic while bringing rice to a simmer.",
+        "Simmer for at least 10 minutes, or up to 20 minutes. The longer you simmer, the softer and smoother the texture will be, but for a “quick” version, I find that 10 minutes will do just fine. Once the rice starts to thicken up, stir frequently with a rubber spatula to prevent the bottom from sticking to the pot.",
+        "When rice is done, add meatballs (if you have them) directly into the rice using 2 teaspoons. Cook the meatballs for about 3 minutes until done.",
+        "Add your ginger, half the green onions, and the seasame oil. Taste and adjust to your liking",
+        "Serve with the remaining green onions and extra white pepper if desired."
+      ],
+      "notes": [
+        "If you want to add eggs, you can crack them right into the congee, letting them poach submerged for 3-4 minutes to firm up the whites slightly, then stir to mix into the congee.",
+        "You don't have to blend the rice, but if you use whole rice it'll take longer to break down in the pot."
+      ]
+    },
+    {"name": "other", "title": "Some Other Recipe", 
+    "image": "https://bcdevcom.blob.core.windows.net/images/logo.png",
+    "categories": ["techniques"],
+    "ingredients": [
+      "things"
+    ],
+    "instructions": [
+      "actions"
+    ],
+    "notes": [
+      "thoughts"
+    ]
+  }
+]
+}
